@@ -1,4 +1,5 @@
 // promises are used to handle async code instead of callbacks
+// uses are HTTP requests, fetch function, also I/O
 
 const promise = new Promise((resolve, reject) => {
   setTimeout(() => {
