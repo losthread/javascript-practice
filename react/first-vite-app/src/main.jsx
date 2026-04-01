@@ -6,6 +6,7 @@ import Gallery from './Component'
 import Avatar from './Avatar'
 import Profile from './Props'
 import PackingList from './Conditionalrendering'
+import List from './FilterMap'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,5 +14,6 @@ createRoot(document.getElementById('root')).render(
     <App/>
     <Profile />
     <PackingList />
+    <List />
   </StrictMode>,
 )
