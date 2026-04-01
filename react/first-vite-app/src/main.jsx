@@ -6,7 +6,9 @@ import Avatar from './Avatar'
 import Profile from './Props'
 import PackingList from './Conditionalrendering'
 import List from './FilterMap'
-import Toolbar from './Events'
+import Toolbar from './EventsAsProps'
+import Slide from './State'
+import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,5 +18,6 @@ createRoot(document.getElementById('root')).render(
     <PackingList />
     <List />
     <Toolbar />
+    <Slide />
   </StrictMode>,
 )

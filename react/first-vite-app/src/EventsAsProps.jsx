@@ -1,15 +1,3 @@
-function AlertButton({ message, children }) {
-  const handleClick = () => {
-    alert(message);
-  };
-
-  return (
-    <button onClick={handleClick}>
-      {children}
-    </button>
-  );
-}
-
 function Button({ onClick, children }) {
   return (
     <button onClick={onClick}>
@@ -40,7 +28,7 @@ function UploadButton() {
 
 export default function Toolbar() {
   return (
-    <div>
+    <div className="mb-9">
       <PlayButton movieName="Kiki's Delivery Service" />
       <UploadButton />
     </div>
