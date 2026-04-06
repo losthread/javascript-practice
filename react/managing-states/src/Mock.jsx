@@ -1,4 +1,8 @@
 // start with all the states like, error, success, typing, submitting etc. Gradually remove the unnecessary ones
+// Group related data eg: instead of x and y create an object with x and y
+// Avoid paradoxes and contradictions in state can cause hard to find bugs
+// Avoid redundant and duplicated states
+// Avoid deeply nested state its hard to read and maintain
 
 import { useState } from "react";
 
